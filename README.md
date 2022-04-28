@@ -7,4 +7,4 @@ Work in progress, more info here soon...
 
 ## Misc.
 
-Check out the basic markdown syntax [here](https://www.markdownguide.org/basic-syntax)
+- Check out the basic markdown syntax [here](https://www.markdownguide.org/basic-syntax)
