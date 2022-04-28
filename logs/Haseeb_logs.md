@@ -25,3 +25,8 @@
   - Raspberry Pi - The go-to device for this but let's try to make the implementation a bit modular so that if we need to change the harware, it could be easily done so.
 - Need to check out if just ears/earlobes/nose/forehead can be used to estimate heartbeat. Would eliminate the need for recording faces. 
 - Need to find a way to workaround the effect of Melanin on heart rate estimation. Don't want the device to be racist, heh. Can already imagine lawsuits XD
+
+
+# Week 1 (28.04 to 04.05)
+
+![Logs]
