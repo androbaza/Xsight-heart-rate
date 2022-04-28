@@ -29,4 +29,4 @@
 
 # Week 2 (28.04 to 04.05)
 
-![Logs](./resources/etc/empty.JPG)
+![Logs](./main/resources/etc/empty.JPG)
