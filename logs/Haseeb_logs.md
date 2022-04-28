@@ -23,5 +23,5 @@
   - Jetson Nano looks promising, but let's see if we can go for cheaper processing station
   - ESP32 Cam for dirt-cheap facial capture but processing needs to be done on a server station/main computer (Don't know how efficient we can make this)
   - Raspberry Pi - The go-to device for this but let's try to make the implementation a bit modular so that if we need to change the harware, it could be easily done so.
-- Need to check out if ears/earlobes/nose can be used to estimate heartbeat. Would eliminate the need for recording faces. 
+- Need to check out if just ears/earlobes/nose/forehead can be used to estimate heartbeat. Would eliminate the need for recording faces. 
 - Need to find a way to workaround the effect of Melanin on heart rate estimation. Don't want the device to be racist, heh.
