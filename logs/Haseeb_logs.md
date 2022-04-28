@@ -29,4 +29,4 @@
 
 # Week 2 (28.04 to 04.05)
 
-![Logs](./main/resources/etc/empty.JPG)
+![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
