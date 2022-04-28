@@ -27,6 +27,6 @@
 - Need to find a way to workaround the effect of Melanin on heart rate estimation. Don't want the device to be racist, heh. Can already imagine lawsuits XD
 
 
-# Week 1 (28.04 to 04.05)
+# Week 2 (28.04 to 04.05)
 
-![Logs]
+![Logs](resources/etc/empty.JPG)
