@@ -1,12 +1,12 @@
 ## Week 1
-* 20 min organisation of meeting, contacting supervisors, setting up Trello group, writing down tasks (see screenshots [1](Trello1.PNG) and [2](Trello2.PNG))
+* 20 min organisation of meeting, contacting supervisors, setting up Trello group, writing down tasks (see screenshots [1](https://github.com/androbaza/Xsight-heart-rate/blob/2cc0a0850e370eeeeaecdf9214cf0927e0c806ca/resources/screenshots/Trello1.PNG) and [2](https://github.com/androbaza/Xsight-heart-rate/blob/2cc0a0850e370eeeeaecdf9214cf0927e0c806ca/resources/screenshots/Trello2.PNG))
 * 30 min looking for publications on the method in general, 4 interesting papers found
 https://downloads.hindawi.com/journals/js/2021/9995871.pdf, 
 https://www.sciencedirect.com/science/article/abs/pii/S1746809414000421, 
 https://www.scitepress.org/Papers/2020/97932/97932.pdf, 
 https://www.rouast.com/pdf/rouast2016remote_a.pdf
 * 25 min collecting the found papers, share them with the group members and sum up the topic 
-* 60 min reading papers more in detail, writing down some important information (see [PDF](notes_26_04.pdf))
+* 60 min reading papers more in detail, writing down some important information (see [PDF](resources/notes/notes_26_04.pdf))
 * 105 min research on automatic face tracking, found good tutorials on how to implement face tracking software using OpenCV, implementation depends on the hardware, so we should decide for the hardware next 
 (https://towardsdatascience.com/automatic-vision-object-tracking-347af1cc8a3b,
 https://github.com/Mjrovai/OpenCV-Object-Face-Tracking,
@@ -14,6 +14,6 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 
 ## Week 2
 * 1 h reading the results and progress of my team mates and fixing the goal for this week: hardware decisions. We need to look for available hardware to prepare for the discussion with our mentors on Thursday and order soon 
-* [list](resources/screenshots/Hardware_ list auf Weekly Tasks _ Trello.pdf) of necessary hardware components
-* 2 h detailed research on hardware components: display, energy supply and buttons (details and thoughts on [Trello card](resources/screenshots/Hardware_ display, battery, button auf Weekly Tasks _ Trello.pdf))
+* [list](https://github.com/androbaza/Xsight-heart-rate/blob/2cc0a0850e370eeeeaecdf9214cf0927e0c806ca/resources/screenshots/Hardware_%20list%20auf%20Weekly%20Tasks%20_%20Trello.pdf) of necessary hardware components
+* 2 h detailed research on hardware components: display, energy supply and buttons (details and thoughts on [Trello card](https://github.com/androbaza/Xsight-heart-rate/blob/2cc0a0850e370eeeeaecdf9214cf0927e0c806ca/resources/screenshots/Hardware_%20display,%20battery,%20button%20auf%20Weekly%20Tasks%20_%20Trello.pdf)
 * 1 h thinking about the design, looking for examples of other portable devices
