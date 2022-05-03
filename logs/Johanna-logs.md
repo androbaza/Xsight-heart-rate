@@ -14,6 +14,6 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 
 ## Week 2
 * 1 h reading the results and progress of my team mates and fixing the goal for this week: hardware decisions. We need to look for available hardware to prepare for the discussion with our mentors on Thursday and order soon 
-* list of necessary hardware components
-* 2 h detailed research on hardware components: display, energy supply and buttons (details and thoughts on Trello card)
+* [list](resources/screenshots/Hardware_ list auf Weekly Tasks _ Trello.pdf) of necessary hardware components
+* 2 h detailed research on hardware components: display, energy supply and buttons (details and thoughts on [Trello card](resources/screenshots/Hardware_ display, battery, button auf Weekly Tasks _ Trello.pdf))
 * 1 h thinking about the design, looking for examples of other portable devices
