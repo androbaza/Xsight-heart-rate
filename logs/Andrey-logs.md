@@ -8,7 +8,7 @@
   * [Deployable method](https://github.com/terbed/Deep-rPPG) - coulb be run on Nvidia Jetson nano (have to check performance).
 
 ## Week 2
-* Contacted Taha Samavati regarding code for [method](https://paperswithcode.com/paper/efficient-deep-learning-based-estimation-of) from previous week. No answer so far.
+* Contacted Taha Samavati regarding code for [method](https://paperswithcode.com/paper/efficient-deep-learning-based-estimation-of) from previous week. Got a positive answer. Will test the model this week.
 * Read papers, presenting latest methods in heart rate estimation (5 hours): 
   * [Self-supervised Representation Learning Framework for Remote Physiological Measurement Using Spatiotemporal Augmentation Loss](https://arxiv.org/pdf/2107.07695v2.pdf)
     * comment: self-supervised method is not deployable.
