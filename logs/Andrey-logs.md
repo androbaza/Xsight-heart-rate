@@ -13,6 +13,6 @@
   * Self-supervised Representation Learning Framework for Remote Physiological Measurement Using Spatiotemporal Augmentation Loss https://arxiv.org/pdf/2107.07695v2.pdf
     * comment: self-supervised method is not deployable.
   * Instantaneous Physiological Estimation using Video Transformers https://arxiv.org/pdf/2202.12368v1.pdf
-    * comment: promising model, rgb input. plan to test this model next.
+    * comment: promising model, rgb input. plan to test this model next. [repo](https://github.com/revanurambareesh/instantaneous_transformer).
   * Beat-to-Beat Cardiac Pulse Rate Measurement From Video https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers/Hill_Beat-To-Beat_Cardiac_Pulse_Rate_Measurement_From_Video_ICCVW_2021_paper.pdf
     * comment: great paper. no code released. will contact authors.
