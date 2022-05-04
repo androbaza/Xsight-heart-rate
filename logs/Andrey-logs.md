@@ -15,7 +15,10 @@
   * [Instantaneous Physiological Estimation using Video Transformers](https://arxiv.org/pdf/2202.12368v1.pdf)
     * comment: promising model, rgb input. plan to test this model next. [repo](https://github.com/revanurambareesh/instantaneous_transformer).
   * [Beat-to-Beat Cardiac Pulse Rate Measurement From Video](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers/Hill_Beat-To-Beat_Cardiac_Pulse_Rate_Measurement_From_Video_ICCVW_2021_paper.pdf)
-    * comment: great paper. no code released. will contact authors.
+    * comment: method participated in V4V challenge in Fall 21. no code released. will contact authors.
+  * [Automatic region-based heart rate measurement using remote
+photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers/Kossack_Automatic_Region-Based_Heart_Rate_Measurement_Using_Remote_Photoplethysmography_ICCVW_2021_paper.pdf)
+    * comment: method participated in V4V challenge in Fall 21. MAE 9.37 beats/min, faster inference. 
   * [A Review of Deep Learning-Based Contactless Heart Rate
 Measurement Methods](https://www.mdpi.com/1424-8220/21/11/3719/pdf).
     * comment: recent review paper. useful to understand the current field.
