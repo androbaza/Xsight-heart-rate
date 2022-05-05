@@ -35,7 +35,7 @@
   - Available on [Mouser](https://www.mouser.de/ProductDetail/Seeed-Studio/109020021?qs=sGAEpiMZZMu3sxpa5v1qrgqRbH4gaXhh5TsRi2%2F21j0%3D) for 61 EUR. Need to check other alternatives, if available.
   - Uses the Infineon technologies' **BGT24LTR11N16** MMIC. Datasheet [here](https://www.infineon.com/dgdl/Infineon-BGT24LTR11N16-DataSheet-v01_03-EN.pdf?fileId=5546d4625696ed7601569d2ae3a9158a) 
   - No research/code available on internet for this specific module, since no one used it before for remote heartbeat estimation.
-  - If this specific chip is used, the challenge at hand is to write an Arduino library to ease the use of directly working with Arduino compatibility layer. This would make it even more efficient.
+  - If this specific chip is used, the challenge at hand is to write an Arduino library to simplify working with Arduino compatibility layer. This would make it even more efficient.
   - Studied the datasheet and realized this is a pretty well-suited chip for the task at hand.
   - Need to look more into other development boards for better implementation
 - Looked at the hardware needed and made a quick list.
