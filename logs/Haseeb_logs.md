@@ -42,13 +42,16 @@
   - Power supply for arduino (Available in Lichtwerkstatt)
   - Doppler radar module (if this is agreed upon in hardware discussion meeting)
 
+## Next week tasks
+- Hardware finalization
+- Begin implementation
+
 ## Notes
-- Papers highlighted by Andrey and TIm were extremely helpful, helped me understand how effective rPPG can be and saved me a lot of time from searching and filtering results from the web.
+- Papers highlighted by Andrey and Tim were extremely helpful, helped me understand how effective rPPG can be and saved me a lot of time from searching and filtering results from the web.
 - Most of the heardware needed (Jetson Nano, Raspberry Pi, Power sources, battery bank) is already available in Lichtwerkstatt. Any buttons or casing can be 3D printed using the printers at Lichtwerkstatt.
 - It is nice to have multiple approaches to a problem and choose the best suited one.
 
 
 # Week 3 (05.05 to 11.05)
-
 
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
