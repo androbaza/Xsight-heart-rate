@@ -24,3 +24,7 @@ Measurement Methods](https://www.mdpi.com/1424-8220/21/11/3719/pdf).
   * [Automatic region-based heart rate measurement using remote
 photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers/Kossack_Automatic_Region-Based_Heart_Rate_Measurement_Using_Remote_Photoplethysmography_ICCVW_2021_paper.pdf)
     * comment: method participated in V4V challenge in Fall 21.
+
+## Week 3
+
+* Probably useful later: [Arduino lib](https://github.com/oxullo/Arduino-MAX30100) for Maxim Integrated MAX30100 oximetry / heart rate sensor.
