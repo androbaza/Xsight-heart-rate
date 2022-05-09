@@ -28,3 +28,7 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 ## Week 3
 
 * Probably useful later: [Arduino lib](https://github.com/oxullo/Arduino-MAX30100) for Maxim Integrated MAX30100 oximetry / heart rate sensor.
+* Task of the week: get at least one Deep Learning model inference running.
+* The most developed framework found so far: [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9044207/), [Repo](https://github.com/phuselab/pyVHR)
+* Tried to run on Macbook: stuck at *Unsupported hardware* error :( (2 hours)
+* Now trying to run on Colab (2 hours so far)
