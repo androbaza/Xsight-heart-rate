@@ -27,3 +27,5 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * 1 h creating account, installation process: Fusion 360 offers an online version I wanted to use (due to some error on the website I couldn't and also the verification of my university account took longer than expected; overall a bit annoying, but at least the download version did work in the end)
 * 1/2 h watching introduction videos to [Fusion 360](https://help.autodesk.com/view/fusion360/ENU/courses/AP-GET-STARTED-OVERVIEW)
 * found this useful list of [shortcuts](https://defkey.com/autodesk-fusion-360-shortcuts?orientation=portrait&filter=false&cellAlternateColor=%23d6ffef&showPageNumber=true&showPageNumber=false&pdf=True)
+* 1/2 h watching this [tutorial](https://www.youtube.com/watch?v=E0NVC8xhf3I) on how to fit a case to a Raspberry Pi, this can be easily adapted to any hardware
+* as we will probably be using an NVIDIA Jetson Nano, it would be usefull to find a CAD model of this
