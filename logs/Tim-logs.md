@@ -17,11 +17,11 @@
 # Week 3
 * in last weeks meeting we decided that I will have a closer look onto the camera we will use in our "medical tricoder"
 * take-home messages from the talk with Michael from XSight Optics: (1.5 h)
- * Raspberry Pi Camera does not work --> to noisy ([this one](https://www.raspberrypi.com/products/camera-module-v2/))
- * good camera is very power consuming --> heat sink 
- * postpone question regarding battery
- * Display: shows user some guidance --> e.g. some LCD with text messages
- * camera: image stabilization on hardware side would be good
+  * Raspberry Pi Camera does not work --> to noisy ([this one](https://www.raspberrypi.com/products/camera-module-v2/))
+  * good camera is very power consuming --> heat sink 
+  * postpone question regarding battery
+  * Display: shows user some guidance --> e.g. some LCD with text messages
+  * camera: image stabilization on hardware side would be good
 * before the chat with Michael we already decided - based on all of our research - to use an [NVIDIA Jetson Nano](https://developer.nvidia.com/embedded/jetson-nano) as computation basis - this thought was welcomed by Michael :) (discussion together 1 h)
 * there is also another [high quality camera for raspberry pis](https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/) --> could be already sufficient
 * name of the camera connector for the Jetson Nano: MIPI CSI-2 --> a lot of camera sensors with this connector can be found [here](https://www.vision-components.com/en/products/oem-embedded-vision-systems/mipi-camera-modules/#c5082)
