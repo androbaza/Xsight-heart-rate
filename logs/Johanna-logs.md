@@ -29,3 +29,9 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * found this useful list of [shortcuts](https://defkey.com/autodesk-fusion-360-shortcuts?orientation=portrait&filter=false&cellAlternateColor=%23d6ffef&showPageNumber=true&showPageNumber=false&pdf=True)
 * 1 h looking for tutorials on case design + watching this [tutorial](https://www.youtube.com/watch?v=E0NVC8xhf3I) on how to fit a case to a Raspberry Pi, this can be easily adapted to any hardware
 * as we will maybe be using an NVIDIA Jetson Nano, CAD models can be found here: [GrabCAD](https://grabcad.com/library/tag/jetson); there are also some case models, we could use as a starting point
+* finding important aspects for case design: (1/2 h) 
+** all parts have to fit in exactly, so that they can't move
+** in- and output channels
+** air flow, cooling
+** possibility to open the case
+** could also have a simple inner case to prevent damage to the electronics like [this](https://grabcad.com/library/nvidia-jetson-nano-case-1) and an outer well-designed case to improve handling
