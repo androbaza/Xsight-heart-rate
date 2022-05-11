@@ -31,4 +31,7 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Task of the week: get at least one Deep Learning model inference running.
 * The most developed framework found so far: [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9044207/), [Repo](https://github.com/phuselab/pyVHR)
 * Tried to run on Macbook: stuck at *Unsupported hardware* error :( (2 hours)
-* Now trying to run on Colab (2 hours so far)
+* Got results on [Colab](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/notebooks/XSight_pyVHR.ipynb)! (3 hours). Left figure: video from laptop webcam, sitting still. Right figure: sitting still in the beginning and then doing squats for a minute.
+
+![result1](../resources/notebooks/bpm_demo.png)![result2](../resources/notebooks/pyVHR_exercise.png)
+
