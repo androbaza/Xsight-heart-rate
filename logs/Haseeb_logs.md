@@ -54,7 +54,7 @@
 
 # Week 3 (05.05 to 11.05)
 
-- Last week, individual project roles were decided. While Andrey focused on implementing one that uses 'Deep learning', I was supposed to implement something that had a more classical approach - plain old image processing and statistics.
+- Last week, individual project roles were decided. While Andrey focused on implementing a solution that uses 'Deep learning', I was supposed to implement something that had a more classical approach - plain old image processing and statistics.
 - This [repo](https://github.com/natalialmg/IR_iHR), as mentioned in previous logs, was a straight forward way to implement rPPG that utilizes classical image processing and statistical denoising for high SNR. But this one uses an IR camera as the source to capture images. Efficacy and result of implementing this same code with an RGB camera is unknown. Tried running this on my PC, but ran into various system errors. Shall try again from scratch with a fresh Linux installation. Since an IR camera is not readily available, I shall put this one aside for now and work on it in the next week. More on this in the Notes section.
 - As highlighted by Andrey a few days ago, [this](https://github.com/phuselab/pyVHR) is a pretty impressive framework to implement rPPG. Moreover, this framework enables the choice of using classical methods as well as Deep Learning methods as Modus Operandi. The choice of dataset is also left to the user. Its more like mix-and-match to see what works and what doesn't for a specific user. Well documented framework too. Doesn't use IR camera like the previous repo.
 - I shall try running this framework on the Jetson Nano and try to get some rudimentary results in the next week.
