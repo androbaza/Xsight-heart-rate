@@ -66,7 +66,7 @@
 
 ## Notes
 - An IR camera is needed to try implementing [this](https://github.com/natalialmg/IR_iHR). I'm not sure if we have an IR camera readily available. I shall discuss with the team and try ordering a very cheap IR camera, if not available at Lichtwerkstatt. Since it would take time for the said order to arrive, I shall work on PyVHR framework and test it on Jetson. I also will compare both the frameworks and choose the most efficient one in terms of ease of implementation and computational burden.
-- RGB camera or IR? I guess this depends on what framework we choose to go with and which implementation would work the best. I'll have to compare both frameworks in detail and justify the choice of one over the other. *Insert Big Brain Time meme here*
+- RGB camera or IR? I guess this depends on what framework we choose to go with and which implementation would work the best. I'll have to compare both frameworks in detail and justify the choice of one over the other. (*Insert Big Brain Time meme here*)
 - Things to consider: 
   - Ease of implementation and usage
   - Computational burden
