@@ -52,7 +52,32 @@
 - Most of the heardware needed (Jetson Nano, Raspberry Pi, Power sources, battery bank) is already available in Lichtwerkstatt. Any buttons or casing can be 3D printed using the printers at Lichtwerkstatt.
 - It is nice to have multiple approaches to a problem and choose the best suited one.
 
-
 # Week 3 (05.05 to 11.05)
+
+- Last week, individual project roles were decided. While Andrey focused on implementing one that uses 'Deep learning', I was supposed to implement something that had a more classical approach - plain old image processing and statistics.
+- This [repo](https://github.com/natalialmg/IR_iHR), as mentioned in previous logs, was a straight forward way to implement rPPG that utilizes classical image processing and statistical denoising for high SNR. But this one uses an IR camera as the source to capture images. Efficacy and result of implementing this same code with an RGB camera is unknown. Tried running this on my PC, but ran into various system errors. Shall try again from scratch with a fresh Linux installation. Since an IR camera is not readily available, I shall put this one aside for now and work on it in the next week. More on this in the Notes section.
+- As highlighted by Andrey a few days ago, [this](https://github.com/phuselab/pyVHR) is a pretty impressive framework to implement rPPG. Moreover, this framework enables the choice of using classical methods as well as Deep Learning methods as Modus Operandi. The choice of dataset is also left to the user. Its more like mix-and-match to see what works and what doesn't for a specific user. Well documented framework too. Doesn't use IR camera like the previous repo.
+- I shall try running this framework on the Jetson Nano and try to get some rudimentary results in the next week.
+
+## Next week tasks
+- Implementing [this](https://github.com/phuselab/pyVHR) (PyVHR) framework on Jetson Nano
+- Retry [this](https://github.com/natalialmg/IR_iHR) on my PC - More on this in Notes section
+- Try to finalize the choice of the implementation method.
+
+## Notes
+- An IR camera is needed to try implementing [this](https://github.com/natalialmg/IR_iHR). I'm not sure if we have an IR camera readily available. I shall discuss with the team and try ordering a very cheap IR camera, if not available at Lichtwerkstatt. Since it would take time for the said order to arrive, I shall work on PyVHR framework and test it on Jetson. I also will compare both the frameworks and choose the most efficient one in terms of ease of implementation and computational burden.
+- RGB camera or IR? I guess this depends on what framework we choose to go with and which implementation would work the best. I'll have to compare both frameworks in detail and justify the choice of one over the other.
+- Things to consider: 
+  - Ease of implementation and usage
+  - Computational burden
+  - Compatibility with chosen hardware
+  - Ability to add more feature in the future
+  - Error and standard deviation from the specific implementation on the specific hardware
+  - Economical factors - choosing the cheapest one if both are comparable in results and error obtained?
+  - Not sure to be honest *sigh*
+
+
+# Week 4 (12.05 to 18.05)
+
 
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
