@@ -28,3 +28,9 @@
 * as far as I remember I saw such a camera lying around in the Makerspace --> task for myself: look up the type to see if this one could work as wel (advantage: no ordering process which takes us time)
 * if one wants to know more about this MIPI connector there is [this short article](https://www.linkedin.com/pulse/what-mipi-camera-how-does-work-e-con-systems/)
 * time for this research and the log (1.5 h)
+
+# Week 4
+* notes from meeting with Jan, Michael and Maria last week:
+  * no PLA for camera holder --> too hot (maybe use an active cooler)
+  * to do: assemble a list of stuff we need --> then ask the guys from Xsight or Lichtwerkstatt
+  * to do: write a project plan --> Which tools? Gantt chart (lucid chart, Canva), Kanban with Trello
