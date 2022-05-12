@@ -74,7 +74,7 @@
   - Ability to add more feature in the future
   - Error and standard deviation from the specific implementation on the specific hardware
   - Economical factors - choosing the cheapest one if both are comparable in results and error obtained?
-  - Not sure to be honest *sigh*
+  - Not sure, to be honest..... *sigh*
 
 
 # Week 4 (12.05 to 18.05)
