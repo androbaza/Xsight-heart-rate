@@ -46,6 +46,6 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
     * connect the camera to Jetson nano, learn to acquire a short video from it by pressing a button. (3-4 hours, finish before 01.06)
     * create pipeline for video feeding to the selected framework. (up to several days, finish before 08.06)
     * learn to read the framework output as text. connect screen, format the output to be corretly displayed. (finish before 15.06)
-     ----------- MVP point - further developments are aimed at optimization -----------
+    * ----------------- MVP point - further developments are aimed at optimization ----------------
     * make the pipeline live.
       * estimate the minimal video length, at which the accuracy is adequate.
