@@ -40,5 +40,5 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 
 ## Week 4
 * 1/2 h working on Gantt shart for the presentation regarding design questions
-* 1/2 h importing a CAD model of Jetson Nano in Fusion
+* 1/2 h importing a [CAD model](https://grabcad.com/library/nvidia-jetson-nano-development-board-1) of Jetson Nano in Fusion 
 * 
