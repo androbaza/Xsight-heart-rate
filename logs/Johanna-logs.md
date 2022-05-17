@@ -37,3 +37,8 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
   * could also have a simple inner case to prevent damage to the electronics like [this](https://grabcad.com/library/nvidia-jetson-nano-case-1) and an outer well-designed case for handling
 * 1/2 h gettig familiar with fusion 360, trying the basics from tutorials myself
 * To do for next week: as the hardware is not totally fixed I will start to design an outer case first, which can be later adapted to the exact components
+
+## Week 4
+* 1/2 h working on Gantt shart for the presentation regarding design questions
+* 1/2 h importing a CAD model of Jetson Nano in Fusion
+* 
