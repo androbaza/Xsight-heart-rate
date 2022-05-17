@@ -35,3 +35,17 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 
 ![result1](../resources/notebooks/bpm_demo.png)![result2](../resources/notebooks/pyVHR_exercise.png)
 
+## Week 4
+
+* Working with pyVHR on Colab is not efficient due to mandatory libs installation of 40-60 minutes every time. Sometimes the process is stuck. Lost of troubleshooting (3 hours spent, no real work progress)
+* Read about Jetson Nano workflow (1.5 hours)
+* Work on further project plan:
+    * install ubuntu on jetson nano. (1-2 hours, finish before 21.05) 
+    * install [pyVHR](https://github.com/phuselab/pyVHR) libs, and [Deep-rPPG](https://github.com/terbed/Deep-rPPG). (up to several days, finish before 25.05)
+    * compare the stability of the two frameworks, chose the one to stick around with. (up to several days, finish before 29.05)
+    * connect the camera to Jetson nano, learn to acquire a short video from it by pressing a button. (3-4 hours, finish before 01.06)
+    * create pipeline for video feeding to the selected framework. (up to several days, finish before 08.06)
+    * learn to read the framework output as text. connect screen, format the output to be corretly displayed. (finish before 15.06)
+     ----------- MVP point - further developments are aimed at optimization -----------
+    * make the pipeline live.
+      * estimate the minimal video length, at which the accuracy is adequate.
