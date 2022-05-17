@@ -41,4 +41,9 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 ## Week 4
 * 1/2 h working on Gantt shart for the presentation regarding design questions
 * 1/2 h importing a [CAD model](https://grabcad.com/library/nvidia-jetson-nano-development-board-1) of Jetson Nano in Fusion 
-* 1 h working on a simple case around the Jetson to get more hands-on experience with the tools provided by Fusion (modelling, fillet, section analysis)
+* 1/2 h working on a simple case around the Jetson to get more hands-on experience with the tools provided by Fusion (modelling, fillet, section analysis), similar to the tutorial mentioned above; needs to be continued
+* 1 h learning how to make an easy snap fit box with this [tutorial](https://www.youtube.com/watch?v=VVmOtM60VWw)
+
+* notes on working with Fusion:
+ * change parameters is very useful to fix dimensions and adapt them quickly later
+ 
