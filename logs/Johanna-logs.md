@@ -44,6 +44,8 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * 1/2 h working on a simple case around the Jetson to get more hands-on experience with the tools provided by Fusion (modelling, fillet, section analysis), similar to the tutorial mentioned above; needs to be continued
 * 2 h learning how to make an easy snap fit box with this [tutorial](https://www.youtube.com/watch?v=VVmOtM60VWw) and doing it myself. This has helped me a lot learning about useful tools and hints to simplify work with Fusion (see notes).
 
+![result1](../resources/screenshots/first snap box.png)
+
 * notes on working with Fusion:
  * 'change parameters' is very useful to fix dimensions and adapt them quickly later
  * construction lines help to find center points and align objects / fix their relative positions (use horizontal/vertical alignment function)
