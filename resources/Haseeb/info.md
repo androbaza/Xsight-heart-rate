@@ -9,4 +9,5 @@ This folder is for dropping any resource I find interesting or useful before I o
 ## USS Enterprise, Captain's log, May 19th, 2022, 01:20: 
 - Linux is annoying af. Have to suffer so much to make stuff work 😿
 - ![Linux is pain](https://github.com/androbaza/Xsight-heart-rate/blob/ed386802ae061a5fda7e7bb22e609d435f7891f3/resources/Haseeb/Linux_is_pain.gif)
+
 This is very relatable
