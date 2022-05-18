@@ -30,7 +30,13 @@
 * time for this research and the log (1.5 h)
 
 # Week 4
-* notes from meeting with Jan, Michael and Maria last week:
+* I got an introduction into the workshop in the ACP from Daniel Füßel (1h) - maybe we can do some useful stuff there later. Devices that are available there:
+  * Lathe for metal
+  * Milling machine - also for metal
+  * Everything else that a workshop has (drills, saws, etc.)
+* notes from meeting with Jan, Michael and Maria last week (1h)
   * no PLA for camera holder --> too hot (maybe use an active cooler)
   * to do: assemble a list of stuff we need --> then ask the guys from Xsight or Lichtwerkstatt
   * to do: write a project plan --> Which tools? Gantt chart (lucid chart, Canva), Kanban with Trello
+* having a look at all of the hardware stuff, which is available in the Makerspace (0.5h)
+* preparing a project plan with our so far taken notes and the thoughts provided by the others (1.5h)
