@@ -77,8 +77,8 @@
   - Not sure, to be honest..... *sigh*
 
 # Week 4 (12.05 to 18.05)
-- Started working on setting up Jetson Nano and running PyVHR
-- Ran into compatibility issues but managed to resolve them. Details in Notes section
+- Started working on setting up Jetson Nano and running PyVHR (5 hours)
+- Ran into compatibility issues but managed to resolve them. Details in Notes section (3 hours)
 
 ## Next week tasks
 - Successfully install PyVHR on Jetson and start working on the classical approaches for rPPG using the available datasets and models with PyVHR
