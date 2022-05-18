@@ -105,11 +105,11 @@ conda create -n NAME_OF_ENVIRONMENT python=3.6
 ```
 - If there are any write permission issues,
 ```bash
-sudo chown 1000:1000 archiconda3_directory
+sudo chown 1000:1000 /ARCHICONDA_DIRECTORY/
 ```
 - and then recreate the environment
 
-- Open bashrc file
+- Now, open bashrc file
 ```bash
 gedit ~/.bashrc
 ```
