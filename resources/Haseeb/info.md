@@ -19,4 +19,6 @@ sudo apt install python3-h5py libhdf5-serial-dev hdf5-tools python3-matplotlib p
 wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
 sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
 conda create -n xsight python=3.6
+wget https://nvidia.box.com/shared/static/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl -O torch-1.9.0-cp36-cp36m-linux_aarch64.whl
+pip install torch-1.9.0-cp36-cp36m-linux_aarch64.whl
 ```
