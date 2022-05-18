@@ -77,12 +77,61 @@
   - Not sure, to be honest..... *sigh*
 
 # Week 4 (12.05 to 18.05)
+- Started working on setting up Jetson Nano and running PyVHR
+- Ran into compatibility issues but managed to resolve them. Details in Notes section
+
+## Next week tasks
+- Successfully install PyVHR on Jetson and start working on the classical approaches for rPPG using the available datasets and models with PyVHR
+- Make Jetson available through remote desktop client so anyone can access and work on it
 
 ## Project Timeline - Project Management (for presentation):
 ![image](https://github.com/androbaza/Xsight-heart-rate/blob/cb28ad9c6befb89b203a237ca5d1a1530ab5df91/resources/Haseeb/project_timeline.JPG)
 
 ### Problems faced:
 - Biggest problem: Running PyVHR on Jestson Nano. There's no pre-built binaries/cmake files for PyVHR for Jetson Nano. Have to build it from source. Installing all the dependencies and making them work in tandem is time-consuming. Once this is done, implementation gets a lot fun and easy, hopefully!
+
+## Notes
+- Set up Jetson Nano with Jetpack 4.6 (Linux Ubuntu 18.04 Gnome flavor, CUDA 10.2, TensorRT 8.2.1, cuDNN 8.2.1, OpenCV 4.1.1, VisionWorks 1.6)
+- Installed important prerequisite packages - Pip3, libhdf5, libopenblas, libblas, libfortran and others
+- PyVHR makes use of Conda, but since Jetson Nano comes with Python 3.6, no Conda version is available for Aarch64 devices like Jetson Nano. So, had to install Archiconda, an alternative to Anaconda
+- To recreate the installation: (Go line-by-line)
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-h5py libhdf5-serial-dev hdf5-tools python3-matplotlib python3-pip libopenblas-base libopenmpi-dev
+wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
+sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
+conda create -n NAME_OF_ENVIRONMENT python=3.6
+```
+- If there are any write permission issues,
+```bash
+sudo chown 1000:1000 archiconda3_directory
+```
+- and then recreate the environment
+
+- Open bashrc file
+```bash
+gedit ~/.bashrc
+```
+- And append this
+```bash
+export OPENBLAS_CORETYPE=ARMV8
+```
+- Now install Pytorch after entering the newly created environment
+```bash
+conda activate NAME_OF_ENVIRONMENT
+wget https://nvidia.box.com/shared/static/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl -O torch-1.9.0-cp36-cp36m-linux_aarch64.whl
+pip install torch-1.9.0-cp36-cp36m-linux_aarch64.whl
+```
+Once this is done, check your Pytorch installation by opening python3 interpreter and importing torch
+
+Next TO-DO:
+- Install Numba (here)
+- Install Cupy and CuSignal
+- Install Kaleido
+- Install PyTables
+- Install PyVHR and check if it works
+
 
 # Week 5 (19.05 to 25.05)
 
