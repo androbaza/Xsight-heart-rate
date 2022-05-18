@@ -12,16 +12,11 @@ This folder is for dropping any resource I find interesting or useful before I o
 Installed Pip3
 Installed Archiconda for Jetson nano, since no Anaconda with Jetpack 4.6
 To recreate the installation
-> sudo apt update
-> sudo apt upgrade
-> sudo apt install python3-h5py libhdf5-serial-dev hdf5-tools python3-matplotlib python3-pip libopenblas-base libopenmpi-dev
-> wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
-> sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
-> conda create -n xsight python=3.6
-
-for write permissions
-> sudo chown 1000:1000 (/archiconda3/ directory)
-Then
-> gedit ~/.bashrc
-add this to bashrc
-> export OPENBLAS_CORETYPE=ARMV8
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-h5py libhdf5-serial-dev hdf5-tools python3-matplotlib python3-pip libopenblas-base libopenmpi-dev
+wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
+sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
+conda create -n xsight python=3.6
+```
