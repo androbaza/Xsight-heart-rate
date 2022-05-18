@@ -39,7 +39,17 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * To do for next week: as the hardware is not totally fixed I will start to design an outer case first, which can be later adapted to the exact components
 
 ## Week 4
-* 1/2 h working on Gantt shart for the presentation regarding design questions
+* 1/2 h working on Gantt chart for the presentation regarding design questions: (full Gantt chart see presentation)
+   * week 5 (25.05.): plan how all technical components can be put together/ are connected / decide for shape and size of outer case
+   * week 6 (01.06.): design outer case (consider in- and output, opening structures, heat, handling, material, air flow)
+   * week 7 (08.06.): plan the inner structure to hold the components
+   * week 8 (15.06.): test print and finalize the printing parts of the case
+   * week 9 (22.06.): aluminium structures to prevent heat damage
+   * week 10 (28.06.): print final case 
+   * week 11 (06.07.): put everything together/test devide
+   * week 12 (13.07.): preparation of final presentation
+
+
 * 1/2 h importing a [CAD model](https://grabcad.com/library/nvidia-jetson-nano-development-board-1) of Jetson Nano in Fusion 
 * 1/2 h working on a simple case around the Jetson to get more hands-on experience with the tools provided by Fusion (modelling, fillet, section analysis), similar to the tutorial mentioned above; needs to be continued
 * 2 h learning how to make an easy snap fit box with this [tutorial](https://www.youtube.com/watch?v=VVmOtM60VWw) and doing it myself. This has helped me a lot learning about useful tools and hints to simplify work with Fusion (see notes).
