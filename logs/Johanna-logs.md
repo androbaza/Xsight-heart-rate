@@ -42,8 +42,10 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * 1/2 h working on Gantt shart for the presentation regarding design questions
 * 1/2 h importing a [CAD model](https://grabcad.com/library/nvidia-jetson-nano-development-board-1) of Jetson Nano in Fusion 
 * 1/2 h working on a simple case around the Jetson to get more hands-on experience with the tools provided by Fusion (modelling, fillet, section analysis), similar to the tutorial mentioned above; needs to be continued
-* 1 h learning how to make an easy snap fit box with this [tutorial](https://www.youtube.com/watch?v=VVmOtM60VWw)
+* 2 h learning how to make an easy snap fit box with this [tutorial](https://www.youtube.com/watch?v=VVmOtM60VWw) and doing it myself. This has helped me a lot learning about useful tools and hints to simplify work with Fusion (see notes).
 
 * notes on working with Fusion:
- * change parameters is very useful to fix dimensions and adapt them quickly later
- 
+ * 'change parameters' is very useful to fix dimensions and adapt them quickly later
+ * construction lines help to find center points and align objects / fix their relative positions (use horizontal/vertical alignment function)
+ * creating central plane and mirror function to copy symmetrical aspects
+ * section analysis tool helps to see if everything fits together
