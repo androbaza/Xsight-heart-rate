@@ -78,8 +78,8 @@
 
 # Week 4 (12.05 to 18.05)
 
-## Project Timeline for presentation:
-![https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/Haseeb/project_timeline.JPG]
+## Project Timeline - Project Management (for presentation):
+![image](https://github.com/androbaza/Xsight-heart-rate/blob/cb28ad9c6befb89b203a237ca5d1a1530ab5df91/resources/Haseeb/project_timeline.JPG)
 
 ### Problems faced:
 - Biggest problem: Running PyVHR on Jestson Nano. There's no pre-built binaries/cmake files for PyVHR for Jetson Nano. Have to build it from source. Installing all the dependencies and making them work in tandem is time-consuming. Once this is done, implementation gets a lot fun and easy, hopefully!
