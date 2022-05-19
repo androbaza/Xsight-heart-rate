@@ -31,7 +31,7 @@
 
 # Week 4
 * I got an introduction into the workshop in the ACP from Daniel Füßel (1h) - maybe we can do some useful stuff there later. Devices that are available there:
-  * Lathe for metal
+  * Lathe for metal Drehbank
   * Milling machine - also for metal
   * Everything else that a workshop has (drills, saws, etc.)
 * notes from meeting with Jan, Michael and Maria last week (1h)
@@ -40,3 +40,12 @@
   * to do: write a project plan --> Which tools? Gantt chart (lucid chart, Canva), Kanban with Trello
 * having a look at all of the hardware stuff, which is available in the Makerspace (0.5h)
 * preparing a project plan with our so far taken notes and the thoughts provided by the others (1.5h)
+
+# Week 5
+* notes from meeting with Michael and Jan:
+  * SLA printer produces more temperature stable parts
+  * hint: try to print some stuff on the 3D printer directly --> learning
+  * camera has standard C-mount --> [this is the camera](https://www.alliedvision.com/en/products/alvium-configurator/alvium-1800-c/158/#_configurator) (there is also the STEP data)
+  * operational distance: 1m - 1.5m
+  * Temron objective - around 5cm long
+  * current medical devices: in normal case: 2 min data acqusition, in emergency situations: couple of seconds possible
