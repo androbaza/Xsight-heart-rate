@@ -52,4 +52,5 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 
 ## Week 5
 * While waiting for Haseeb to finish with the remote acceess setup on Jetson, I'll start with the "video recording and feeding to algorithm" pipeline.
-* Pushbutton is easily connected to the Jetson: [video](https://www.youtube.com/watch?v=ehzrPl5cNCc), [tutorial](https://jetsonhacks.com/2015/12/29/gpio-interfacing-nvidia-jetson-tx1/). - could have the button on on the jetson board itself 
+* Pushbutton is easily connected to the Jetson: [video](https://www.youtube.com/watch?v=ehzrPl5cNCc), [tutorial](https://jetsonhacks.com/2015/12/29/gpio-interfacing-nvidia-jetson-tx1/). -- could have the button on on the jetson board itself 
+* Reading Camera input [tutorial](https://forums.developer.nvidia.com/t/jetson-nano-faq/82953), [python code to try](https://stackoverflow.com/questions/14140495/how-to-capture-a-video-and-audio-in-python-from-a-camera-or-webcam).
