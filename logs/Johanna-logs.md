@@ -60,3 +60,9 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
    * construction lines help to find center points and align objects / fix their relative positions (use horizontal/vertical alignment function)
    * creating central plane and mirror function to copy symmetrical aspects
    * section analysis tool helps to see if everything fits together
+
+## Week 5 
+* 4 h working on [CAD model](https://github.com/androbaza/Xsight-heart-rate/blob/b3a9464a52f9e3416458cf3a1d4398d84b18be7d/resources/screenshots/first%20case.PNG) for case (including search for the dimensions and existing CAD models of our chosen components; not finished yet as I spent a lot of time on looking up how to do it smart
+   * I paid attention on making a smart model which can be adapted quickly to changes in dimensions and shapes
+   * example: only changing the main dimensions of the case is enough to quickly adapt the top cover, th click system and the position of the cut outs for display and camera 
+ * next week: finish the basic model and maybe print first attempt in small size to check the click system for the top cover
