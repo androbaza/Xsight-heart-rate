@@ -51,6 +51,8 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
       * estimate the minimal video length, at which the accuracy is adequate.
 
 ## Week 5
-* While waiting for Haseeb to finish with the remote acceess setup on Jetson, I'll start with the "video recording and feeding to algorithm" pipeline.
+* While waiting for Haseeb to finish with the remote acceess setup on Jetson, I'll start with the "video recording and feeding to algorithm" pipeline (research, 3 hours).
 * Pushbutton is easily connected to the Jetson: [video](https://www.youtube.com/watch?v=ehzrPl5cNCc), [tutorial](https://jetsonhacks.com/2015/12/29/gpio-interfacing-nvidia-jetson-tx1/). -- could have the button on on the jetson board itself 
-* Reading Camera input [tutorial](https://forums.developer.nvidia.com/t/jetson-nano-faq/82953), [python code to try](https://stackoverflow.com/questions/14140495/how-to-capture-a-video-and-audio-in-python-from-a-camera-or-webcam).
+* Reading Camera input [GStreamer tutorial (official method)](https://developer.ridgerun.com/wiki/index.php?title=GStreamer_Daemon_-_MP4_Video_Recording),
+* [CV2 python code for short video recording to try](https://github.com/aarushi-nema/jetson-nano/blob/master/openCV003_save_read.py)).
+* Very nice project for remote temperature measurement on Jetson nano [repo](https://github.com/tomek-l/ai-thermometer) -- bits and pieces could be useful.
