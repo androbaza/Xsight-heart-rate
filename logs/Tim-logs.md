@@ -42,10 +42,13 @@
 * preparing a project plan with our so far taken notes and the thoughts provided by the others (1.5h)
 
 # Week 5
-* notes from meeting with Michael and Jan:
+* notes from meeting with Michael and Jan (1h):
   * SLA printer produces more temperature stable parts
   * hint: try to print some stuff on the 3D printer directly --> learning
   * camera has standard C-mount --> [this is the camera](https://www.alliedvision.com/en/products/alvium-configurator/alvium-1800-c/158/#_configurator) (there is also the STEP data)
   * operational distance: 1m - 1.5m
   * Temron objective - around 5cm long
   * current medical devices: in normal case: 2 min data acqusition, in emergency situations: couple of seconds possible
+* before the meeting we had a short preparational conversation as a team (0.5h)
+* after the meeting  I tested the laser-cutting device for another 1h (because we had the lecture on this topic before the meeting :)
+* that's all I did for this week because there was a holiday and I took some time off ;)
