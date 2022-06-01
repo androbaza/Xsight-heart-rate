@@ -58,3 +58,4 @@
 * For the battery we will most probably go for a power bank (the Raspberry Pi battery packs are not compatible to the Jetson Nano).
 * I picked up the camera (mentioned above) from the Xsight Optics team at the TIP in Jena - handed it over to Haseeb so that he can plug it into the Jetson Nano and install the drivers (1h)
 * had a conversation with Julian and Darius on their project to understand their problems at the moment and tried to help with some suggestions (1h)
+* watched some introduction videos into Fusion 360 and the GPIO connectors on the Jetson Nano (inspired by Andrey's and Johanna's log) (2h)
