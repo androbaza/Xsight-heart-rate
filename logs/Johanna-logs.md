@@ -66,3 +66,13 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
    * I paid attention on making a smart model which can be adapted quickly to changes in dimensions and shapes
    * example: only changing the main dimensions of the case is enough to quickly adapt the top cover, th click system and the position of the cut outs for display and camera 
  * next week: finish the basic model and maybe print first attempt in small size to check the click system for the top cover
+
+## Week 6 
+* 4 h working on hold and click system [CAD model]([resources/screenshots/first snap box2.PNG](https://github.com/androbaza/Xsight-heart-rate/blob/21af6cc33f77ef1603e016488aaee0ae038a5ad7/resources/screenshots/first%20snap%20box2.PNG))
+   *  idea: put the power bank inside the hold and charge it via bottom cap
+   *  therefore: elliptical shpae and elliptical shaped click system
+   *  used [this](https://www.youtube.com/watch?v=iF_P5ie_b8o) tutorial for the click system
+   *  I wanted to fix the position of hold and case right away, but this caused some troubles with the techniques used in the tutoial -> spent a lot of time on       looking for other ways to do the click system
+   *  still have trobles with the mirror method ([see cross section analysis](https://github.com/androbaza/Xsight-heart-rate/blob/21af6cc33f77ef1603e016488aaee0ae038a5ad7/resources/screenshots/click%20problem.PNG)), needs to be fixed next week
+   *  so far only used simple shapes to maximize space for components, final shape should look nicer
+* next week: finish the basic model and maybe print first attempt in small size to check the click system for the top cover
