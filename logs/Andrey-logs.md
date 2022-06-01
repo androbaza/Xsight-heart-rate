@@ -56,3 +56,9 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Reading Camera input [GStreamer tutorial (official method)](https://developer.ridgerun.com/wiki/index.php?title=GStreamer_Daemon_-_MP4_Video_Recording),
 * [CV2 python code for short video recording to try](https://github.com/aarushi-nema/jetson-nano/blob/master/openCV003_save_read.py)).
 * Very nice project for remote temperature measurement on Jetson nano [repo](https://github.com/tomek-l/ai-thermometer) -- bits and pieces could be useful.
+
+## Week 6
+* For some reason the Jetson nano refuses the connection via NoMachine for remote access. Troubleshooting (2h). Haseeb will set it up at Lichtwerkstatt for physical access.
+* Looked more closely through [temperature measurement project](https://github.com/tomek-l/ai-thermometer) methods to understand the interacton with jetson hardware (2h).
+    * Particularly interesting is [camera interaction scripts](https://github.com/tomek-l/ai-thermometer/blob/master/docs/camera_scripts/gstreamer_commands.md)
+    * [Notebooks](https://github.com/tomek-l/ai-thermometer/tree/master/docs/notebooks) provide nice step-by-step guides on running a model similar to ours. 
