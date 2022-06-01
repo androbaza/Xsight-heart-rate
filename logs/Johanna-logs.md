@@ -68,7 +68,7 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
  * next week: finish the basic model and maybe print first attempt in small size to check the click system for the top cover
 
 ## Week 6 
-* 4 h working on hold and click system [CAD model]([resources/screenshots/first snap box2.PNG](https://github.com/androbaza/Xsight-heart-rate/blob/21af6cc33f77ef1603e016488aaee0ae038a5ad7/resources/screenshots/first%20snap%20box2.PNG))
+* 4 h working on hold and click system [CAD model](https://github.com/androbaza/Xsight-heart-rate/blob/21af6cc33f77ef1603e016488aaee0ae038a5ad7/resources/screenshots/first%20snap%20box2.PNG)
    *  idea: put the power bank inside the hold and charge it via bottom cap
    *  therefore: elliptical shpae and elliptical shaped click system
    *  used [this](https://www.youtube.com/watch?v=iF_P5ie_b8o) tutorial for the click system
