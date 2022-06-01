@@ -52,3 +52,7 @@
 * before the meeting we had a short preparational conversation as a team (0.5h)
 * after the meeting  I tested the laser-cutting device for another 1h (because we had the lecture on this topic before the meeting :)
 * that's all I did for this week because there was a holiday and I took some time off ;)
+
+# Week 6
+* Regarding the display we found one in the Makerspace of the Lichtwerkstatt - we will use this one :)
+* For the battery we will most probably go for a power bank (the Raspberry Pi battery packs are not compatible to the Jetson Nano).
