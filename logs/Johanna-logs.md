@@ -73,6 +73,6 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
    *  therefore: elliptical shpae and elliptical shaped click system
    *  used [this](https://www.youtube.com/watch?v=iF_P5ie_b8o) tutorial for the click system
    *  I wanted to fix the position of hold and case right away, but this caused some troubles with the techniques used in the tutoial -> spent a lot of time on       looking for other ways to do the click system
-   *  still have trobles with the mirror method ([see cross section analysis](https://github.com/androbaza/Xsight-heart-rate/blob/21af6cc33f77ef1603e016488aaee0ae038a5ad7/resources/screenshots/click%20problem.PNG)), needs to be fixed next week
+   *  still have troubles with the mirror method ([see cross section analysis](https://github.com/androbaza/Xsight-heart-rate/blob/21af6cc33f77ef1603e016488aaee0ae038a5ad7/resources/screenshots/click%20problem.PNG)), needs to be fixed next week
    *  so far only used simple shapes to maximize space for components, final shape should look nicer
 * next week: finish the basic model and maybe print first attempt in small size to check the click system for the top cover
