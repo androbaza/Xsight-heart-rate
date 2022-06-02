@@ -134,7 +134,7 @@ Next TO-DO:
 
 # Week 5 (19.05 to 25.05)
 - Continued installing the required dependencies to run PyVHR. Lots of problems faced, detailed in the 'problems faced' section (6 to 7 hours)
-- Reinstalled Jetpack 4.6 (Jetson OS) and PyTorch on the new Jetson Nano we took (stole XD) from Johannes (2.5 hours). Why? This newer Nano had a USB-C input rather than the barrel jack for power, so makes it easier to directly connect a power bank as the power source. Hence, no need to think more about power delivery circuits and battery options for the project. This new Jetson also has a Noctua fan attached to the heatsink of the Nano, so cooling would also be taken care of, for now.
+- Reinstalled Jetpack 4.6 (Jetson OS) and PyTorch on the new Jetson Nano we took (stole XD) from Johannes (2 hours). Why? This newer Nano had a USB-C input rather than the barrel jack for power, so makes it easier to directly connect a power bank as the power source. Hence, no need to think more about power delivery circuits and battery options for the project. This new Jetson also has a Noctua fan attached to the heatsink of the Nano, so cooling would also be taken care of, for now.
 - Couldn't install remote desktop client to give access to Andrey since I was stuck with the PyVHR installation, so postponed it to next week
 
 ## Problems faced:
