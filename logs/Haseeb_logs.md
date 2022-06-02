@@ -132,7 +132,50 @@ Next TO-DO:
 - Install PyTables
 - Install PyVHR and check if it works
 
-
 # Week 5 (19.05 to 25.05)
+- Continued installing the required dependencies to run PyVHR. Lots of problems faced, detailed in the 'problems faced' section (6 to 7 hours)
+- Reinstalled Jetpack 4.6 (Jetson OS) and PyTorch on the new Jetson Nano we took (stole XD) from Johannes (2.5 hours). Why? This newer Nano had a USB-C input rather than the barrel jack for power, so makes it easier to directly connect a power bank as the power source. Hence, no need to think more about power delivery circuits and battery options for the project. This new Jetson also has a Noctua fan attached to the heatsink of the Nano, so cooling would also be taken care of, for now.
+- Couldn't install remote desktop client to give access to Andrey since I was stuck with the PyVHR installation, so postponed it to next week
+
+## Problems faced:
+- 'Numba' dependency needs a different version of 'Conda' package manager. Archiconda doesn't work for some unknown reason. Tried multiple installation methods to make it work. Compiled from source using cmake too, but in vain *insert crying face emoji*
+- Had to remove Archiconda to install Numba. What I totally forgot about - removing Conda also removed the virtual environment I installed PyTorch in. *facepalm*
+- Installed the conda supported by Numba. Then recreated virtual environment to install Pytorch. What I didn't realize - I also mistakenly updated the Python version globablly and not just in the virtual env. And this is where I started to pull my hairs out. Everything installed perfectly, but Pytorch doesn't run any sample programs. After debugging and checking for more than an hour, I checked the local libraries and Python interpreter version. Then found out that it got upgraded somewhere down the line and wasn't supposed to be upgraded.
+- Now, how to downgrade Python after the new libraries were hardcoded into the system? Either create a new environment with the older version within all that mess OR REINSTALL THE JETSON OS!! The latter was a lot simpler because at this point I had lost my patience 5 times over the weekend. 
+- Cleared the SD card and reinstalled the Jetpack. Glad that I logged all my code and commands from the bash_history. Reinstalled all that stuff again, but this time being very careful with the Python version.
+- Finally installed Numba, Cupy and CuSignal dependencies. Since I rolled back to the original python that came with Jetpack 4.6, CUDA libraries were intact and this made Cupy and CuSignal installation a lot easier. 
+
+## Next week tasks
+- Make Jetson available through remote desktop client so anyone can access and work on it
+- Take the High-Res camera from the Xsight team and make it work with the Jetson
+- Move the project files to the new Jetson
+- Check the display usng the GPIO pins
+
+## Notes
+- (Will log my bash commands here later on to continue the 'Recreate Installation' from last week's log)
+
+# Week 6 (26.05 to 01.06)
+- Almost done installing PyVHR - stuck at some compatibility issues. (2 hours) Would be hopefully cleared by this weekend. Logging EVERY SINGLE command so I can restore my progress until this checkpoint in case I mess up something in the future. 
+- Tried enabling Remote desktop client - again lots of problems faced, detailed in the 'problems faced' section (3.5 to 4 hours - pointlessly wasted time)
+- Started setting up the camera provided by Xsight team (1 hour) - read the datasheet and application notes
+- New Jetson up and running with the copied project files and dependencies (1 hour)
+
+## Problems faced:
+- Remote desktop in Jetson is not straight-forward due to its processor (ARMv8) and network architecture. No teamviewer or Anydesk support for Jetson Nano. Found a few alternatives - Remmina desktop sharing, VNC desktop sharing and No Machine desktop sharing.
+- Remmina is not available for Windows and Mac. Only Linux systems. So we would need to have a laptop running Ubuntu to use Remmina
+- Using VNC on Jetson needed a lot of command lines and a some networking knowledge. Not good at that. I'm an introvert, so networking is not really my strong suit. Bad joke, but seriously, I'm not good with networking.
+- NoMachine was a good and fairly easy-to-implement alternative - or so I thought. After somehow weaving my way through the nuances of remote desktop connection, compatibility issues, desktop environment errors and losing my patience 3 more times, I was able to run desktop sharing, but only on the Local network or LAN. Global network access will need some adjustments on my router like port-forwarding or something or maybe I should look more into the documentation from NoMachine website to make it work.
+- Discussed this with Andrey and unanimously decided it is a waste of time. Better to just make it physically available somewhere instead of breaking our heads with remote networks. Maybe I'll ask Johannes for some help with this. He might have used remote desktop on Nano at some point with his previous projects.
+
+## Next week tasks
+- Make Jetson available for Andrey, either by setting it up in Lichtwerkstatt or somehow magically making remote desktop work!
+- Get the PyVHR framework up and running
+- Get the camera running so Andrey can test video-capture pipeline
+- Get the small screen connected to the Jetson GPIO pins and include it as a second display in the Jetson configuration or write a small Python script? Don't know yet.
+
+## Notes
+- (Again, will log my bash commands here later on to continue the 'Recreate Installation' from last week's log)
+
+# Week 7 (02.06 to 08.06)
 
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
