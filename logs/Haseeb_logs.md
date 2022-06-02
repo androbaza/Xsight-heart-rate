@@ -154,6 +154,8 @@ Next TO-DO:
 ## Notes
 - (Will log my bash commands here later on to continue the 'Recreate Installation' from last week's log)
 
+- **With all the logging and messy problems in Week 5, I think I missed updating my log here on Github. I honestly thought I logged it locally AND on Github, but clearly, I forgot doing it here on Github. Apologies!!**
+
 # Week 6 (26.05 to 01.06)
 - Almost done installing PyVHR - stuck at some compatibility issues. (2 hours) Would be hopefully cleared by this weekend. Logging EVERY SINGLE command so I can restore my progress until this checkpoint in case I mess up something in the future. 
 - Tried enabling Remote desktop client - again lots of problems faced, detailed in the 'problems faced' section (3.5 to 4 hours - pointlessly wasted time)
