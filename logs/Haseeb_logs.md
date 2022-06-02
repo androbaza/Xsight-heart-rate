@@ -138,8 +138,8 @@ Next TO-DO:
 - Couldn't install remote desktop client to give access to Andrey since I was stuck with the PyVHR installation, so postponed it to next week
 
 ## Problems faced:
-- 'Numba' dependency needs a different version of 'Conda' package manager. Archiconda doesn't work for some unknown reason. Tried multiple installation methods to make it work. Compiled from source using cmake too, but in vain *insert crying face emoji*
-- Had to remove Archiconda to install Numba. What I totally forgot about - removing Conda also removed the virtual environment I installed PyTorch in. *facepalm*
+- 'Numba' dependency needs a different version of 'Conda' package manager. Archiconda doesn't work for some unknown reason. Tried multiple installation methods to make it work. Compiled from source using cmake too, but in vain (*insert crying face emoji*)
+- Had to remove Archiconda to install Numba. What I totally forgot about - removing Conda also removed the virtual environment I installed PyTorch in. (*facepalm*)
 - Installed the conda supported by Numba. Then recreated virtual environment to install Pytorch. What I didn't realize - I also mistakenly updated the Python version globablly and not just in the virtual env. And this is where I started to pull my hairs out. Everything installed perfectly, but Pytorch doesn't run any sample programs. After debugging and checking for more than an hour, I checked the local libraries and Python interpreter version. Then found out that it got upgraded somewhere down the line and wasn't supposed to be upgraded.
 - Now, how to downgrade Python after the new libraries were hardcoded into the system? Either create a new environment with the older version within all that mess OR REINSTALL THE JETSON OS!! The latter was a lot simpler because at this point I had lost my patience 5 times over the weekend. 
 - Cleared the SD card and reinstalled the Jetpack. Glad that I logged all my code and commands from the bash_history. Reinstalled all that stuff again, but this time being very careful with the Python version.
