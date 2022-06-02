@@ -177,6 +177,7 @@ Next TO-DO:
 
 ## Notes
 - (Again, will log my bash commands here later on to continue the 'Recreate Installation' from last week's log)
+- **Once again, with all the logging and messy problems in Week 5, I think I missed updating my log here on Github. I honestly thought I logged it locally AND on Github, but clearly, I forgot doing it here on Github. Apologies!!**
 
 # Week 7 (02.06 to 08.06)
 
