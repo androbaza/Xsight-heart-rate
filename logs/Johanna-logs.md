@@ -76,3 +76,11 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
    *  still have troubles with the mirror method ([see cross section analysis](https://github.com/androbaza/Xsight-heart-rate/blob/21af6cc33f77ef1603e016488aaee0ae038a5ad7/resources/screenshots/click%20problem.PNG)), needs to be fixed next week
    *  so far only used simple shapes to maximize space for components, final shape should look nicer
 * next week: finish the basic model and maybe print first attempt in small size to check the click system for the top cover
+
+## Week 7
+* 2 h (with Tim in the Lichtwerkstatt) preparing a small version of the upper part of our case for the printer:
+   * separating case and lid and placing them in different files
+   * slice the models for the printer
+   * print the case
+* notes: case is quite stable, the click system works but is a little bit to stiff 
+* future: make the click system less stiff, try different materials
