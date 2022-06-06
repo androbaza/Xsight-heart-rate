@@ -83,4 +83,7 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
    * slice the models for the printer
    * print the case
 * notes: case is quite stable, the click system works but is a little bit to stiff 
-* future: make the click system less stiff, try different materials
+* future: 
+   * fix problems with the mirror method in the hold
+   * make the click system less stiff, try different material
+ 
