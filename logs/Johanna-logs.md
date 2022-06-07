@@ -86,4 +86,5 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * future: 
    * fix problems with the mirror method in the hold
    * make the click system less stiff, try different material
- * 1/2 h arrange the files in my Fusion account and create a team to share all designs with Tim
+ * 0,5 h arrange the files in my Fusion account and create a team to share all designs with Tim
+ * 1,5 h trying to find reason why mirror method causes problems in parametic design of hold and finally recreated the hold in an extra file as we have to print it seperated anyway
