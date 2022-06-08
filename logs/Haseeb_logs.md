@@ -180,5 +180,15 @@ Next TO-DO:
 - **Once again, with all the logging and messy problems in Week 5, I think I missed updating my log here on Github. I honestly thought I logged it locally AND on Github, but clearly, I forgot doing it here on Github. Apologies!!**
 
 # Week 7 (02.06 to 08.06)
+- In the process of setting up the Allied Vision camera with the new Jetson. Facing some issues, will fix them by next week possibly. If this takes too much time, I shall ask for help from XSight team (3 to 4h)
+- PyVHR almost done. Will hopefully start working with the camera and PyVHR by the next week.
+- Didn't put in a lot of work this week since I had put a lot of time on this in the last two weeks. Needed to focus some time on other courses.
+
+## Next week tasks
+- Set up the new Jetson at Lichtwerkstatt
+- Get the PyVHR framework up and running with the camera
+- Set up the mini display to work with Jetson GPIO.
+
+# Week 8 (09.06 to 05.06)
 
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
