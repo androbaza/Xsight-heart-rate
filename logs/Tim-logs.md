@@ -59,3 +59,10 @@
 * I picked up the camera (mentioned above) from the Xsight Optics team at the TIP in Jena - handed it over to Haseeb so that he can plug it into the Jetson Nano and install the drivers (1h)
 * had a conversation with Julian and Darius on their project to understand their problems at the moment and tried to help with some suggestions (1h)
 * watched some introduction videos into Fusion 360 and the GPIO connectors on the Jetson Nano (inspired by Andrey's and Johanna's log) (2h)
+
+# Week 7
+* After the lecture last week we had again a meeting with Jan and Michael for feedback on our progress so far - very useful (1h)
+* right after the lecture Johanna and I started the first attempt of printing a case of the handheld "medical tricoder" (1h) (at this point thanks to Johanna - she already prepared a very nice case design)
+* on the next day I picked up the case - the clickable mechanism does indeed work *-* (that is what we wanted to see with this first print) (0.5h)
+* on the weekend I installed Fusion 360 on my laptop and Johanna created a Team so we both can work on the design of the case (1h)
+* spent some time on learning how to use Fusion 360 (1h)
