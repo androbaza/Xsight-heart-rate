@@ -62,3 +62,8 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Looked more closely through [temperature measurement project](https://github.com/tomek-l/ai-thermometer) methods to understand the interacton with jetson hardware (2h).
     * Particularly interesting is [camera interaction scripts](https://github.com/tomek-l/ai-thermometer/blob/master/docs/camera_scripts/gstreamer_commands.md)
     * [Notebooks](https://github.com/tomek-l/ai-thermometer/tree/master/docs/notebooks) provide nice step-by-step guides on running a model similar to ours. 
+    
+## Week 7
+* Meeting with Xsight team, discussuon of design ideas (1.5h)
+* Safety training to have direct access to Lichwerkstatt with my transponder (1h)
+* Next steps of my work should be offline in the Lichwerkstatt, as I need to have direct access to Jetson nano. Hovewer, this week I could not fit this work into my schedule due to multiple urgent responsibilities (looking for an apartment, preparing for midterms, preparting for presentations in other subjects). I will "reimburse" the time to the project as I get these urgent matters solved. The nice thing is that other members of the team do not rely on results of my work (yet), as we are working in parallel.
