@@ -95,7 +95,7 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
   * looking up how I defined the stiffness for the click system: chamfer at edges of features at lid (last try: 0.6 mm)
   * increased height of lid from 2 mm to 4 mm and added a slit to open it with a coin 2.5 mm x 25 mm
   * idea: print one box and 4 different lids to test stiffness (chmafer 0.7 mm, 0.8 mm, 0.9 mm, 1 mm)
-  * see screenshot of the second print version
+  * see [screenshot](https://github.com/androbaza/Xsight-heart-rate/blob/bb67a6333d57df0ba16a9ec16d9dfce8a56736ae/resources/screenshots/second%20print.PNG) of the second print version
 * notes: 
   * copy + paste of lid did not work as parameters adapted automatically, so I watched a [tutorial](https://www.youtube.com/watch?v=sCgr5WNt6RA) about copying features (result: paste does only work if another component is active; paste: the new body is linked, while paste new creates a completely new object not linked to the preveous version)
   * new problem: paste new did not appear (problem was that the lid was not a component but a body, solution: select body > new component -> copy -> paste new)
