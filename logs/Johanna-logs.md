@@ -89,3 +89,10 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
    * add feature to open the case easier
  * 0,5 h arrange the files in my Fusion account and create a team to share all designs with Tim
  * 1,5 h trying to find reason why mirror method causes problems in parametic design of hold and finally recreated the hold in an extra file as we have to print it seperated anyway
+
+## Week 8
+* 2 h continue to work on the case:
+  * looking up how I defined the stiffness for the click system: chamfer at edges of features at lid (last try: 0.6 mm)
+  * increased height of lid from 2 mm to 4 mm and added a slit to open it with a coin 2.5 mm x 25 mm
+  * idea: print one box and 4 different lids to test stiffness
+* notes: copy + paste of lid did not work as parameters adapted automatically, so I watched a [tutorial](https://www.youtube.com/watch?v=sCgr5WNt6RA) about copying features 
