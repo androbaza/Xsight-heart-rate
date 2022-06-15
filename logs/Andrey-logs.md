@@ -72,6 +72,7 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Created [main loop](https://github.com/androbaza/Xsight-heart-rate/tree/main/resources/main_loop) with function for video capturing from the camera. Not tested yet, probably needs lots of debugging --> will check it as I get hands-on with Jetson. (3h)
 * Pushbutton [connection](https://www.youtube.com/watch?v=ehzrPl5cNCc) and code to run and finish the main loop.
    * Required: 1kOhm resistor, connect one leg of resistor to 3.3V through pushbutton leg, another leg to GND.
-   * code: link to repo soon
+   * [code](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/main_loop/main.py#L39): after the loop is run, wait for the button push, and enter video recording/inference state. 
+   * Possible problem: need another button to control on/off state of the "inference button loop". Need to discuss this with the team for the device opeartion to be logical.
    
 ![circuit](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/screenshots/pushbutton_circuit.png)
