@@ -1,5 +1,6 @@
 from rgb import RGBThread
 from ui import make_rgb_view
+import RPi.GPIO as GPIO
 
 def exit_handler():
     print("exit handler called")
@@ -33,6 +34,18 @@ def setup_display(display_addr):
 
 
 def mainloop():
+
+
+	GPIO.setmode(GPIO.BOARD)
+	GPIO.setup(15, GPIO.IN)
+	while():
+		
+		button_state_upd = GPIO.input(15)
+		if (button_state_upd == 0 and button_state_old == 1) # value is 0 when the button is pressed
+			# do the video recording
+
+		button_state_old = button_state_upd
+	GPIO.cleanup()
 
     for i in itertools.count(start=0, step=1):
 
