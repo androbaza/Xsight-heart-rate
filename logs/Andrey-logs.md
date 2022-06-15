@@ -67,3 +67,6 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Meeting with Xsight team, discussuon of design ideas (1.5h)
 * Safety training to have direct access to Lichwerkstatt with my transponder (1h)
 * Next steps of my work should be offline in the Lichwerkstatt, as I need to have direct access to Jetson nano. Hovewer, this week I could not fit this work into my schedule due to multiple urgent responsibilities (looking for an apartment, preparing for midterms, preparting for presentations in other subjects). I will "reimburse" the time to the project as I get these urgent matters solved. The nice thing is that other members of the team do not rely on results of my work (yet), as we are working in parallel.
+
+## Week 8
+* Created [main loop](https://github.com/androbaza/Xsight-heart-rate/tree/main/resources/main_loop) with function for video capturing from the camera. Not tested yet, probably needs lots of debugging --> will check it as I get hands-on with Jetson. (3h)
