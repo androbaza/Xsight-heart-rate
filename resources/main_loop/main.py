@@ -53,24 +53,7 @@ def mainloop():
 
         boxes_ir = transform_boxes(boxes, 1.1, 1.1, 0, 0)
 
-        if CALIBRATE:
-            temp_arr, drift = calibration(temp_arr) 
-
-        temps = get_bb_temps(temp_arr, boxes_ir)
-
         # Render UI views
-        ir_view = make_ir_view(
-            temp_arr,
-            scores,
-            boxes_ir,
-            len(scores) * [None],  # don't feed landmarks
-            # TODO: revisit this when we have improved homography-based transform
-            temps,
-            CALIB_BOX,
-            IR_WIN_SIZE,
-            CMAP_TEMP_MIN,
-            CMAP_TEMP_MAX,
-        )
         rgb_view = make_rgb_view(rgb_arr, scores, boxes, landms, VIS_WIN_SIZE)
 
         # Show rendered UI
@@ -83,7 +66,7 @@ def mainloop():
             if key == ord("q"):
                 break
 
-        # Save images to filesystem
+        # Save images to filesystem  ----> make this saving of video
         if SAVE_FRAMES:
             if executor._work_queue.qsize() > MAX_FILE_QUEUE:
                 print(
@@ -132,24 +115,8 @@ if __name__ == "__main__":
     rgb_thread = RGBThread(model=FACE_DET_MODEL)
     rgb_thread.start()
 
-    ir_thread = IRThread()
-    ir_thread.start()
-
-    if not CALIBRATE:
-        CALIB_BOX = None
-
-    if SAVE_FRAMES:
-        executor = ThreadPoolExecutor(max_workers=4)
-
-    if SHOW_DISPLAY:
-        setup_display(X_DISPLAY_ADDR)
-
     while rgb_thread.frame is None:
         print("Waiting for RGB frames")
-        time.sleep(1)
-
-    while ir_thread.temps is None:
-        print("Waiting for IR frames")
         time.sleep(1)
 
     try:
