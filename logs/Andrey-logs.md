@@ -73,4 +73,5 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Pushbutton [connection](https://www.youtube.com/watch?v=ehzrPl5cNCc) and code to run and finish the main loop.
    * Required: 1kOhm resistor, connect one leg of resistor to 3.3V through pushbutton leg, another leg to GND.
    * code: link to repo soon
+   
 ![circuit](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/screenshots/pushbutton_circuit.png)
