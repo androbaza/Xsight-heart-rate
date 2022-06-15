@@ -69,7 +69,7 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Next steps of my work should be offline in the Lichwerkstatt, as I need to have direct access to Jetson nano. Hovewer, this week I could not fit this work into my schedule due to multiple urgent responsibilities (looking for an apartment, preparing for midterms, preparting for presentations in other subjects). I will "reimburse" the time to the project as I get these urgent matters solved. The nice thing is that other members of the team do not rely on results of my work (yet), as we are working in parallel.
 
 ## Week 8
-* Created [main loop](https://github.com/androbaza/Xsight-heart-rate/tree/main/resources/main_loop) with function for video capturing from the camera. Not tested yet, probably needs lots of debugging --> will check it as I get hands-on with Jetson. (3h)
+* Created [main loop](https://github.com/androbaza/Xsight-heart-rate/tree/main/resources/main_loop) with function for video capturing from the camera. Not tested yet, probably needs lots of debugging --> will check it as I get hands-on with Jetson. (5h)
 * Pushbutton [connection](https://www.youtube.com/watch?v=ehzrPl5cNCc) and code to run and finish the main loop.
    * Required: 1kOhm resistor, connect one leg of resistor to 3.3V through pushbutton leg, another leg to GND.
    * [code](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/main_loop/main.py#L39): after the loop is run, wait for the button push, and enter video recording/inference state. 
