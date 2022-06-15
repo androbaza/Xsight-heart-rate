@@ -73,6 +73,6 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Pushbutton [connection](https://www.youtube.com/watch?v=ehzrPl5cNCc) and code to run and finish the main loop.
    * Required: 1kOhm resistor, connect one leg of resistor to 3.3V through pushbutton leg, another leg to GND.
    * [code](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/main_loop/main.py#L39): after the loop is run, wait for the button push, and enter video recording/inference state. 
-   * Possible problem: need another button to control on/off state of the "inference button loop". Need to discuss this with the team for the device opeartion to be logical.
+   * Possible problem: need another button to control on/off state of the "inference button loop". Need to discuss this with the team for the device operation to be logical.
    
 ![circuit](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/screenshots/pushbutton_circuit.png)
