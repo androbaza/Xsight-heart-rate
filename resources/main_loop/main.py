@@ -38,11 +38,15 @@ def mainloop():
 
 	GPIO.setmode(GPIO.BOARD)
 	GPIO.setup(15, GPIO.IN)
+	button_state_old = 0
 	while():
 		
 		button_state_upd = GPIO.input(15)
-		if (button_state_upd == 0 and button_state_old == 1) # value is 0 when the button is pressed
+		# value is 0 when the button is pressed
+		# enter the video recording/inference state when the button is pressed and exit the loop
+		if (button_state_upd == 0 and button_state_old == 1) 
 			# do the video recording
+		
 
 		button_state_old = button_state_upd
 	GPIO.cleanup()
