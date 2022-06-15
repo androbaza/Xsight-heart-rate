@@ -66,3 +66,6 @@
 * on the next day I picked up the case - the clickable mechanism does indeed work *-* (that is what we wanted to see with this first print) (0.5h)
 * on the weekend I installed Fusion 360 on my laptop and Johanna created a Team so we both can work on the design of the case (1h)
 * spent some time on learning how to use Fusion 360 (1h)
+
+# Week 8
+* Unfortunately I was sick the whole week and could not do anything for the project.
