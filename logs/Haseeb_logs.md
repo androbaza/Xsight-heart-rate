@@ -189,6 +189,16 @@ Next TO-DO:
 - Get the PyVHR framework up and running with the camera
 - Set up the mini display to work with Jetson GPIO.
 
-# Week 8 (09.06 to 05.06)
+# Week 8 (09.06 to 15.06)
+- Still in the process of setting up Allied Vision Camera (1hr)
+- Tested the mini display (1 hr)
+- Didn't get a lot of work done this week as I was not at the best of my health.
+
+## Next week tasks
+- Set up the new Jetson at Lichtwerkstatt, provide access to the project team
+- Get the PyVHR framework up and running with the camera
+- Final set up the of mini display with Jetson GPIO and interfacing with video pipeline.
+
+# Week 9 (16.06 to 22.06)
 
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
