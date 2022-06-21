@@ -105,6 +105,7 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * 1 h at Lichtwerkstatt: printing the next version of our case to test the stiffness of our click system for the lid + discussion about the case design and next steps:
   * make the connection between case and hold clickable as well
   * place all components in the Fusion file to decide for the actual size of the case
+* 3 h working on case model: click system for hold, adding Jetson to main file
 * notes:
    * [tutorial for assembling parts](https://www.youtube.com/watch?v=l3olnRKJvnQ)
-   * problem with the complexity of the imported model of Jetson -> solution:
+   * problem with the complexity of the imported model of Jetson -> solution: restarting Fusion ...
