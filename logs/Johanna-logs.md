@@ -101,3 +101,7 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
   * copy + paste of lid did not work as parameters adapted automatically, so I watched a [tutorial](https://www.youtube.com/watch?v=sCgr5WNt6RA) about copying features (result: paste does only work if another component is active; paste: the new body is linked, while paste new creates a completely new object not linked to the preveous version)
   * new problem: paste new did not appear (problem was that the lid was not a component but a body, solution: select body > new component -> copy -> paste new)
   
+## Week 9
+* 1 h at Lichtwerkstatt: printing the next version of our case to test the stiffness of our click system for the lid + discussion about the case design and next steps:
+  * make the connection between case and hold clickable as well
+  * place all components in the Fusion file to decide for the actual size of the case
