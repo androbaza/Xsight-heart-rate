@@ -80,6 +80,9 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 ## Week 9
 * Spent the whole week praying for Haseeb to get well (168h). 
     * We decided on meeting with Haseeb during the week, but he was feeling sick at the morning of meeting days. 
-    * I need to meet him at Lichtwerkstatt to test my code at the Jetson setup, and I am cautious to write more code before testing it because it could be in vain. Hopefully we could do it this Thursday after lecture.
+    * I need to meet him at Lichtwerkstatt to test my code at the Jetson setup. I am cautious to write more code before testing it because it could be in vain. Hopefully we could do it this Thursday after lecture.
 * We had a small discussion regarding the code logic and design with the team and Xsight Optics at Lichtwerkstatt (1h).
     * Decided that there will be 2 buttons: one for on/off and one for entering the video recording/inference loop.
+    * I will connect the buttons and test the implementations as soon as I get my hand on Jetson.
+* Research on how to run certain file on button press on Jetson (1h)
+   * Decided to put the main loop on autorun in Jetson's OS. Probably need a LED (or show info on screen) to signal the user that the device is ready to take measurements.
