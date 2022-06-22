@@ -76,3 +76,10 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
    * Possible problem: need another button to control on/off state of the "inference button loop". Need to discuss this with the team for the device operation to be logical.
    
 ![circuit](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/screenshots/pushbutton_circuit.png)
+
+## Week 9
+* Spent the whole week praying for Haseeb to get well (168h). 
+    * We decided on meeting with Haseeb during the week, but he was feeling sick at the morning of meeting days. 
+    * I need to meet him at Lichtwerkstatt to test my code at the Jetson setup, and I am cautious to write more code before testing it because it could be in vain. Hopefully we could do it this Thursday after lecture.
+* We had a small discussion regarding the code logic and design with the team and Xsight Optics at Lichtwerkstatt (1h).
+    * Decided that there will be 2 buttons: one for on/off and one for entering the video recording/inference loop.
