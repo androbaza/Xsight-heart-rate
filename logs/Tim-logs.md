@@ -74,4 +74,4 @@
 * I am back again :)
 * spent 1h with Johanna in the Lichtwerkstatt to print the next case design - picked it up and cleaned it the next day (0.5h)
 * after being in the Lichtwerkstatt I spent 2.5 hours on preparing something for the project presentation - is still secret, but will hopefully be cool :D
-* helped Darius and Julian by cutting their cylindrical lens - introduced them to the workshop in the ACP (1.5h)
+* helped Darius and Julian (team "Macroscopic lightsheet microscope") by cutting their cylindrical lens - introduced them to the workshop in the ACP (1.5h)
