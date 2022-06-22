@@ -105,10 +105,10 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * 1 h at Lichtwerkstatt: printing the next version of our case to test the stiffness of our click system for the lid + discussion about the case design and next steps:
   * make the connection between case and hold clickable as well
   * place all components in the Fusion file to decide for the actual size of the case
-* 3 h working on case model: [click system for hold](https://github.com/androbaza/Xsight-heart-rate/blob/449a357f79d79cca7aaf3b85fd894d26a70fb05b/resources/screenshots/click%20system%20hold.PNG), adding Jetson to [main file](https://github.com/androbaza/Xsight-heart-rate/blob/449a357f79d79cca7aaf3b85fd894d26a70fb05b/resources/screenshots/case%20with%20inner%20components.PNG)
+* 4 h working on case model: [click system for hold](https://github.com/androbaza/Xsight-heart-rate/blob/449a357f79d79cca7aaf3b85fd894d26a70fb05b/resources/screenshots/click%20system%20hold.PNG), adding Jetson to [main file](https://github.com/androbaza/Xsight-heart-rate/blob/449a357f79d79cca7aaf3b85fd894d26a70fb05b/resources/screenshots/case%20with%20inner%20components.PNG)
 * notes:
    * [tutorial for assembling parts](https://www.youtube.com/watch?v=l3olnRKJvnQ)
-   * problem with the complexity of the imported model of Jetson -> solution: restarting Fusion ...
+   * problem with the complexity of the imported model of Jetson -> solution: restarting Fusion, trying to export and import in different file types ... lost around 1 h 
 * next tasks:
    * add buttons
    * add charging slit
