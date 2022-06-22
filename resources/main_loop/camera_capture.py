@@ -26,14 +26,23 @@ def gstreamer_pipeline(
 
 
 
-def make_imx219_capture(camera_id):
+def record_video(camera_id, duration):
 
     gst_string = gstreamer_pipeline(
         camera_id=camera_id,
-        framerate=21,
+        framerate=30,
         flip_method=2,
     )
 
-    cap = cv2.VideoCapture(gst_string, cv2.CAP_GSTREAMER)
+    capture = cv2.VideoCapture(gst_string, cv2.CAP_GSTREAMER)
+    video_save = cv2.VideoWriter('videos/pulse5s.mp4', cv2.VideoWriter_fourcc(*'mp4v'), gstreamer_pipeline.framerate,(gstreamer_pipeline.out_width, gstreamer_pipeline.out_height))
 
-    return cap
+    for frame_n in range(0, duration * gstreamer_pipeline.framerate):
+        ret, frame = capture.read()
+        cv2.imshow(str(frame_n), frame)
+        video_save.write(frame)
+        if cv2.waitKey(1) == ord('q'):
+            break
+    capture.release()
+    video_save.release()
+    cv2.destroyAllWindows()

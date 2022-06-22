@@ -1,5 +1,4 @@
-from rgb import RGBThread
-from ui import make_rgb_view
+import RGBThread, make_rgb_view
 import RPi.GPIO as GPIO
 
 def exit_handler():
@@ -24,6 +23,34 @@ def setup_display(display_addr):
     cv2.moveWindow(IR_WIN_NAME, IR_WIN_SIZE[0], 0)  # Align windows side by side
     print((IR_WIN_SIZE[0], 0))
 
+
+HZ_CAP = 20
+LOG_DIR = "logs"
+VIS_WIN_NAME = "RGB view"
+IR_WIN_NAME = "IR view"
+
+VIS_BBOX_COLOR = (0, 0, 255)  # red
+IR_BBOX_COLOR = (0, 255, 0)  # green
+
+IR_WIN_SIZE = (960, 720)  # splits 1080p screen in half
+VIS_WIN_SIZE = (960, 720)
+
+SAVE_FRAMES = True
+SHOW_DISPLAY = True
+MAX_FILE_QUEUE = 10
+
+X_DISPLAY_ADDR = ":0"
+
+FACE_DET_MODEL = "retinaface"  # alternatively SSD
+
+CALIBRATE = False # We default to false. Otherwise very large errors for users who deploy without a BB reference.
+CALIB_T = 40 # temperature to which the blackbody reference is set to
+CALIB_BOX = [8/160, 106/120, 20/160, 115/120]
+
+CMAP_TEMP_MIN = 30
+CMAP_TEMP_MAX = 40
+
+    # on/of button press --> enter the loop of waiting for measurement button press
     # @button press
     # start video recording
     # extra: write to screen "face detected" - if this is available in pyVHR
@@ -45,8 +72,30 @@ def mainloop():
 		# value is 0 when the button is pressed
 		# enter the video recording/inference state when the button is pressed and exit the loop
 		if (button_state_upd == 0 and button_state_old == 1) 
+            rgb_view = make_rgb_view(rgb_arr, scores, boxes, landms, VIS_WIN_SIZE)
+            if SHOW_DISPLAY:
+                cv2.imshow(VIS_WIN_NAME, rgb_view)
+                # cv2.imshow(IR_WIN_NAME, ir_view)
+                key = cv2.waitKey(1) & 0xFF
+
+                # if the `q` key was pressed in the cv2 window, we break from the loop and exit the program
+                if key == ord("q"):
+                    break            
 			# do the video recording
-		
+
+
+
+            # feed the video to pyVHR
+
+
+            # delete the video from disk
+
+
+            button_state_old = 0
+            continue
+
+
+
 
 		button_state_old = button_state_upd
 	GPIO.cleanup()
@@ -76,7 +125,7 @@ def mainloop():
         # Show rendered UI
         if SHOW_DISPLAY:
             cv2.imshow(VIS_WIN_NAME, rgb_view)
-            cv2.imshow(IR_WIN_NAME, ir_view)
+            # cv2.imshow(IR_WIN_NAME, ir_view)
             key = cv2.waitKey(1) & 0xFF
 
             # if the `q` key was pressed in the cv2 window, we break from the loop and exit the program
