@@ -200,5 +200,14 @@ Next TO-DO:
 - Final set up the of mini display with Jetson GPIO and interfacing with video pipeline.
 
 # Week 9 (16.06 to 22.06)
+- Again, didn't get a lot of work done as I was not very healthy
+- Got the camera working (1.5 hr)
+
+## Next week tasks
+- need to set up camera with Jetson at Lichtwerkstatt
+- Get the PyVHR framework up and running with the camera
+- Final set up the of mini display with Jetson GPIO and interfacing with video pipeline. 
+
+# Week 10 (23.06 to 29.06)
 
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
