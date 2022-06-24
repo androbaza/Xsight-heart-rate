@@ -50,54 +50,6 @@ def record_video(camera_id, duration):
     cv2.destroyAllWindows()
 
 
-def exit_handler():
-    print("exit handler called")
-    rgb_thread.stop()
-    ir_thread.stop()
-
-    rgb_thread.join()
-    ir_thread.join()
-
-    cv2.destroyAllWindows()
-
-def setup_display(display_addr):
-    if os.environ.get("DISPLAY") is None:
-        os.environ["DISPLAY"] = display_addr
-    elif X_DISPLAY_ADDR:
-        print("INFO: Using $DISPLAY from environment, not from config")
-
-    cv2.namedWindow(VIS_WIN_NAME)
-    cv2.namedWindow(IR_WIN_NAME)
-    cv2.moveWindow(VIS_WIN_NAME, 0, 0)  # move RGB window to upper-left corner
-    cv2.moveWindow(IR_WIN_NAME, IR_WIN_SIZE[0], 0)  # Align windows side by side
-    print((IR_WIN_SIZE[0], 0))
-
-
-HZ_CAP = 20
-LOG_DIR = "logs"
-VIS_WIN_NAME = "RGB view"
-
-VIS_BBOX_COLOR = (0, 0, 255)  # red
-IR_BBOX_COLOR = (0, 255, 0)  # green
-
-IR_WIN_SIZE = (960, 720)  # splits 1080p screen in half
-VIS_WIN_SIZE = (960, 720)
-
-SAVE_FRAMES = True
-SHOW_DISPLAY = True
-MAX_FILE_QUEUE = 10
-
-X_DISPLAY_ADDR = ":0"
-
-FACE_DET_MODEL = "retinaface"  # alternatively SSD
-
-CALIBRATE = False # We default to false. Otherwise very large errors for users who deploy without a BB reference.
-CALIB_T = 40 # temperature to which the blackbody reference is set to
-CALIB_BOX = [8/160, 106/120, 20/160, 115/120]
-
-CMAP_TEMP_MIN = 30
-CMAP_TEMP_MAX = 40
-
     # on/of button press --> enter the loop of waiting for measurement button press
     # @button press
     # start video recording
@@ -137,99 +89,23 @@ def mainloop():
 
             # feed the video to pyVHR
 
+            # display the result
 
             # delete the video from disk
             os.remove('videos/pulse5s.mp4')
 
             button_state_old = 0
-            
+
 		button_state_old = button_state_upd
-	GPIO.cleanup()
-
-    for i in itertools.count(start=0, step=1):
-
-        time_start = time.monotonic()
-
-        scores, boxes, landms = rgb_thread.get_detections()
-
-        # only keep detections with confidence above 50%
-        scores = np.array(scores)
-        boxes = np.array(boxes)
-        landms = np.array(landms)
-
-        keep = scores > 0.5
-
-        scores = scores[keep]
-        boxes = boxes[keep]
-        landms = landms[keep]
-
-        boxes_ir = transform_boxes(boxes, 1.1, 1.1, 0, 0)
-
-        # Render UI views
-        rgb_view = make_rgb_view(rgb_arr, scores, boxes, landms, VIS_WIN_SIZE)
-
-        # Show rendered UI
-        if SHOW_DISPLAY:
-            cv2.imshow(VIS_WIN_NAME, rgb_view)
-            # cv2.imshow(IR_WIN_NAME, ir_view)
-            key = cv2.waitKey(1) & 0xFF
-
-            # if the `q` key was pressed in the cv2 window, we break from the loop and exit the program
-            if key == ord("q"):
-                break
-
-        # Save images to filesystem  ----> make this saving of video
-        if SAVE_FRAMES:
-            if executor._work_queue.qsize() > MAX_FILE_QUEUE:
-                print(
-                    "Error: Too many files in file queue. Not saving frames from this iteration."
-                )
-            else:
-                # TODO: catch writing errors due to full SD card
-                # For examlple: libpng error: Write Error
-                # The ret value of imwrite can be obtained from:
-                # future = executor.submit(...)
-                # future.result()
-
-                # OPTIMIZE: we're saving frames with main loop frequency (up to 20Hz)
-                # It would be more efficient to check if the frames changed between
-                # iterations
-                executor.submit(
-                    cv2.imwrite,
-                    f"{LOG_DIR}/frames/{session_id}-{i:05d}-rgb.jpg",
-                    rgb_view,
-                )
-                executor.submit(
-                    cv2.imwrite,
-                    f"{LOG_DIR}/frames/{session_id}-{i:05d}-ir.png",
-                    ir_view,
-                )
-
-        main_latency = time.monotonic() - time_start
-
-        # Quick f-string format specifiers reference:
-        # f'{value:{width}.{precision}}'
-        print(
-            f"INFO: Thread latencies   "
-            f"Main={1000*main_latency:6.2f}ms   "
-            f"RGB={rgb_thread._delay:6.2f}ms   "
-            f"IR={ir_thread.latency:6.2f}ms"
-        )
-
-        time.sleep(max(0, 1 / HZ_CAP - main_latency))
-
+	
+def exit_handler():
+    GPIO.cleanup()
+    cv2.destroyAllWindows()
 
 if __name__ == "__main__":
 
     session_id = int(time.time())
     # For an unique id: session_id = uuid.uuid4()
-
-    rgb_thread = RGBThread(model=FACE_DET_MODEL)
-    rgb_thread.start()
-
-    while rgb_thread.frame is None:
-        print("Waiting for RGB frames")
-        time.sleep(1)
 
     try:
         mainloop()
