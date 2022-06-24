@@ -91,4 +91,5 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 ## Week 10
 * Cleaned up the main loop, started research on how to connect the display to Jetson nano and program it. (3h)
     * [Useful tutorial on display](https://github.com/JetsonHacksNano/installPiOLED)
+    * [Useful tutorial on display 2](https://pmvanker.blogspot.com/2021/12/nvdia-jetson-nano-i2c-interface-16x2-lcd.html)
     * [Useful tutorial on script autostart with the system](https://forums.developer.nvidia.com/t/how-to-run-a-script-on-boot/108411/7)
