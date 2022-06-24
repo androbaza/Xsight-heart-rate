@@ -75,3 +75,9 @@
 * spent 1h with Johanna in the Lichtwerkstatt to print the next case design - picked it up and cleaned it the next day (0.5h)
 * after being in the Lichtwerkstatt I spent 2.5 hours on preparing something for the project presentation - is still secret, but will hopefully be cool :D
 * helped Darius and Julian (team "Macroscopic lightsheet microscope") by cutting their cylindrical lens - introduced them to the workshop in the ACP (1.5h)
+
+# Week 10
+* printed a first version of the case with correct dimensions (3h) - findings:
+ * click mechanism on the upper part works good :)
+ * click mechanism on the lower part can be improved - the hooks rather on the long sides of the ellipse
+ * vmaybe rethink completely if we design the mounting differently --> the powerbank will be very big for the power demand of Jetson Nano and camera --> maybe better without housing and fix the powerbank directly...
