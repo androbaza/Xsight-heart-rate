@@ -87,3 +87,7 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 * Research on how to run certain file on button press on Jetson (1h)
    * Decided to put the main loop on autorun in Jetson's OS. Probably need a LED (or show info on screen) to signal the user that the device is ready to take measurements.
 * Wrote the [function for video capture and saving](https://github.com/androbaza/Xsight-heart-rate/blob/main/resources/main_loop/camera_capture.py). Should be pretty universal, whatever camera we will end up using. (2h)
+
+## Week 10
+* Cleaned up the main loop, started research on how to connect the display to Jetson nano and program it. (3h)
+    * [Useful tutorial](https://github.com/JetsonHacksNano/installPiOLED)
