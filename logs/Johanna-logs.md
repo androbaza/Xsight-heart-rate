@@ -112,3 +112,5 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * next tasks:
    * add buttons
    * add charging slit
+## Week 10
+* 1/2 h planning next steps: holes for the buttons, add slit to lid, increase thickness a little bit, decide for power bank
