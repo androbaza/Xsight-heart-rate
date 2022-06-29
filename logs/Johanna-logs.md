@@ -116,4 +116,6 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * 1/2 h planning next steps: holes for the buttons, add slit to lid, increase thickness a little bit, decide for power bank
 * 1/2 h adding slit to main file, lid thickness now 4 mm (need to check how is works with the display, maybe add a second layer or create shell 
 * 1 h adding holes for the buttons (need to ask for the dimensions)
+* 1/2 h looking for different meshes/ slit patterns for air cooling; discuss with the group first,
+* 1/2 h looking at Tim's suggestion for fixing the hold to the case (push fit with his power bank)
 * next task: add slits for air flow, decide how to fix the power bank to the case, window for battery status
