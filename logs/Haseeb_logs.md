@@ -209,5 +209,14 @@ Next TO-DO:
 - Final set up the of mini display with Jetson GPIO and interfacing with video pipeline. 
 
 # Week 10 (23.06 to 29.06)
+- Set-up the Jetson in Lichtwerkstatt (1 hr)
+- Set-up the display with the Jetson GPIO (1 hr)
+
+## Next week tasks
+- Need to set-up the camera with the Jetson at Lichtwerkstatt
+- Implement video pipeline with Andrey's help on the Jetson
+- Assemble Jetson in the sample casing that Tim and Johanna got 3D printed
+
+# Week 11 (30.06 to 06.07)
 
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
