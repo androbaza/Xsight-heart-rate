@@ -89,10 +89,12 @@ def mainloop():
 
             # feed the video to pyVHR
 
-            # display the result
+
+            # display the result: pins 2-5 for display
+            
 
             # delete the video from disk
-            os.remove('videos/pulse5s.mp4')
+            # os.remove('videos/pulse5s.mp4')
 
             button_state_old = 0
 
