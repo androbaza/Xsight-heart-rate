@@ -119,3 +119,7 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 * 1/2 h looking for different meshes/ slit patterns for air cooling; discuss with the group first,
 * 1/2 h looking at Tim's suggestion for fixing the hold to the case (push fit with his power bank)
 * next task: add slits for air flow, decide how to fix the power bank to the case, window for battery status
+
+## Week 11
+* try how the design looks like when it's big enough for the power bank 18 x 8 x 2,2 cm
+* try Tim's idea for the hold (plug in the power as the hold itself)
