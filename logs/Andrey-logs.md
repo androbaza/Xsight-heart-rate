@@ -93,3 +93,10 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
     * [Useful tutorial on display](https://github.com/JetsonHacksNano/installPiOLED)
     * [Useful tutorial on display 2](https://pmvanker.blogspot.com/2021/12/nvdia-jetson-nano-i2c-interface-16x2-lcd.html)
     * [Useful tutorial on script autostart with the system](https://forums.developer.nvidia.com/t/how-to-run-a-script-on-boot/108411/7)
+   
+## Week 11
+* Tested the main loop with the Raspberry Pi camera and a button connected - it works!(4h)
+
+But what doesn't work is the compression in GIFs. So here is 20Mb ultradistorted GIF.
+![demo](../resources/etc/button_camera_demo.gif)
+
