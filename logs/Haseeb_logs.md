@@ -219,4 +219,13 @@ Next TO-DO:
 
 # Week 11 (30.06 to 06.07)
 
+- Didn't get anything done since I had Laser Physics exam on 6th July, so had to prepare for it
+
+## Next week tasks
+- Final testing and debugging of PyVHR 
+- Implementing video pipeline
+- Assemble Jetson in the 3D printed case
+
+# Week 12 (07.07 to 13.07)
+
 ![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
