@@ -99,9 +99,9 @@
 sudo apt update
 sudo apt upgrade
 sudo apt install python3-h5py libhdf5-serial-dev hdf5-tools python3-matplotlib python3-pip libopenblas-base libopenmpi-dev
-wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
-sudo sh Archiconda3-0.2.3-Linux-aarch64.sh
-conda create -n NAME_OF_ENVIRONMENT python=3.6
+wget https://github.com/jjhelmus/conda4aarch64/releases/download/1.0.0/c4aarch64_installer-1.0.0-Linux-aarch64.sh
+sudo sh c4aarch64_installer-1.0.0-Linux-aarch64.sh
+conda create -n NAME_OF_ENVIRONMENT python=3.6 #or 3.7
 ```
 - If there are any write permission issues,
 ```bash
@@ -124,6 +124,8 @@ wget https://nvidia.box.com/shared/static/9eptse6jyly1ggt9axbja2yrmj6pbarc.whl -
 pip install torch-1.9.0-cp36-cp36m-linux_aarch64.whl
 ```
 Once this is done, check your Pytorch installation by opening python3 interpreter and importing torch
+
+
 
 Next TO-DO:
 - Install Numba (here)
