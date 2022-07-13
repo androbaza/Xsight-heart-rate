@@ -85,3 +85,14 @@
 
 # Week 11
 * unfortunately I could not do anything because I had an important exam today (6th July) and wanted to prepare it
+
+# Week 12
+* After Johannes' lecture on how to present I started with the presentation (1h)
+* Johanna and I were also working on improvements on the case (2h)
+* On Friday I started a print on the Prusa printer --> the bed is unfortunately too small for the lid and the case. But the Ultimaker S5 was not available why we had to use it (1h)
+* On Tuesday I could check the result - it was not good, but okay. Because the Ultimaker was back I printed the case and the lid there (1h).
+* Unfortunately I got a message after two hours that the print failed.
+* On Tuesday I also worked on the presentation (3h).
+* On Wednesday I could have a look why --> due to some misalignment in Fusion 360 the printer didn't print the first layer onto the bed - it was just printing random stuff. Johanna was there and we fixed the error (2h).
+* Haseeb was unfortunately still not there - so we could not check if display and camera fit in well (the button does). We started the "finalfinal_last_v2" print :D
+* Furthermore I worked on the presentation (5h).
