@@ -100,3 +100,7 @@ photoplethysmography](https://openaccess.thecvf.com/content/ICCV2021W/V4V/papers
 But what doesn't work is the compression in GIFs. So here is 20Mb ultradistorted GIF.
 ![demo](../resources/etc/button_camera_demo.gif)
 
+## Week 12
+* Soldered the button connections so that it would hold in the case. Soldering iron in Lichtwerkstatt does not work properly for some reason (the temperature that is shown on the display is not reached by the soldering iron tip). The longest soldering of just 3 wires in my life. (2h)
+* General work on assembling the electrincs parts in the case (2h)
+* Presentation preparation (2h)
