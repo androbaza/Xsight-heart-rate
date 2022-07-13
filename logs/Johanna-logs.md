@@ -128,6 +128,7 @@ https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)![image](https://user-i
 
 ## Week 12
 * 1h pictures for pitch next week
-* 2h working on case in Fusion: finalize case design and print at Lichtwerkstatt 
+* 2h working on case in Fusion: finalize case design and print at Lichtwerkstatt (unfortunately there was a bug in the first layer of the case, so the print did not work
+* 1h fixing the bug and printing the very last version (hopefully)
 * will spend 3 hours at Lichtwerstatt on Thursday to prepare final presentation
  
