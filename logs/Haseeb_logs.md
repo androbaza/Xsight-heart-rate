@@ -230,4 +230,11 @@ Next TO-DO:
 
 # Week 12 (07.07 to 13.07)
 
-![Logs](https://github.com/androbaza/Xsight-heart-rate/blob/51ae68385d27b7b830f5b3130e17f253fc52355b/resources/etc/empty.JPG)
+- Set-up the camera with Jetson. Some issues, camera doesn't run for more than 1 second and then crashes (4h)
+- Final tested display and debug (2h)
+- Jetson assembled in the 3D printed case (2h)
+- Final testing and debig of the whole set-up (5h)
+
+## Notes:
+- Jetson not running the heartbeat estimation yet. Still need to troubleshoot and remove bugs
+- Can get it running, but need more time... :(
