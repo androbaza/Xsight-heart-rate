@@ -234,6 +234,7 @@ Next TO-DO:
 - Final tested display and debug (2h)
 - Jetson assembled in the 3D printed case (2h)
 - Final testing and debig of the whole set-up (5h)
+- I want to sleep now
 
 ## Notes:
 - Jetson not running the heartbeat estimation yet. Still need to troubleshoot and remove bugs
